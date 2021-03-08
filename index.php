@@ -48,11 +48,11 @@
 				<?php
 					// Check if the plugin RSS is enabled
 					if (pluginActivated('pluginRSS')) {
-						echo '<li><a href="'.$site->rss().'" class="icon fa-rss"><span class="label">RSS</span></a></li>';
+						echo '<li><a href="'.$site->rss().'" class="icon solid fa-rss"><span class="label">RSS</span></a></li>';
 					}
 					// Check if the plugin Sitemap is enabled
 					if (pluginActivated('pluginSitemap')) {
-						echo '<li><a href="'.$site->sitemap().'" class="icon fa-sitemap"><span class="label">Sitemap</span></a></li>';
+						echo '<li><a href="'.$site->sitemap().'" class="icon solid fa-sitemap"><span class="label">Sitemap</span></a></li>';
 					}
 				?>
 			</ul>
